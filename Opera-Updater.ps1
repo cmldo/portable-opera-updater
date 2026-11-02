@@ -35,7 +35,7 @@ $ScriptVersion   = '1.2.0'
 # Cartella "raw" su GitHub con Opera-Updater.ps1 e Opera-Updater.version.
 # Nel repo viene riscritta in automatico dalla GitHub Action (.github/workflows/release-meta.yml).
 # Vuoto o con "YOUR_USER" = autoaggiornamento disattivato.
-$SelfUpdateBase  = 'https://raw.githubusercontent.com/YOUR_USER/portable-opera-updater/main'
+$SelfUpdateBase  = 'https://raw.githubusercontent.com/cmldo/portable-opera-updater/main'
 $LauncherVersion = '2.0.0.0'
 
 # Sorgente del launcher (C# 5, compilato con csc.exe). Segnaposto: __TITLE__ __LVER__ __INSTDIR__
